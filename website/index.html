@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Translation Project</title>
+	</head>
+<body>
+	<h1 class=""><b>Translate Your Sentence</b></h1>
+	<p>Write a sentence in English below and click the "translate" button to translate it to French </p>
+	<form method = "POST">
+		<div>
+			<label> Sentence </label> <br>
+				<textarea id="phrase" name="input" rows="3" cols="100" placeholder="English sentence"> </textarea>
+		</div>
+		<br>
+		<input type = "submit" value = "Translate">
+		<br>
+		<br>
+		<div>
+			<label> Translation </label> <br>
+			<textarea id="trans" name="translation" rows="3" cols="100" > {{translation}} </textarea>
+		</div>
+		
+	
+	</form>
+	
+</body>
+
+</html>
